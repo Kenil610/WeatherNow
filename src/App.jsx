@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import WeatherApp from "./WeatherApp";
 import { ThemeProvider } from "./ThemeContext";
-import "./app.css"
+import "./App.css"
 
 function App() {
   const [themeMode, setThemeMode] = useState(
